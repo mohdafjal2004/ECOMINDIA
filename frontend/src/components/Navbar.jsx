@@ -17,14 +17,14 @@ const Navbar = () => {
   const handleLogOut = () => {
     localStorage.removeItem("usertoken");
     navigate("/login");
-  };
+  }; 
   
   useEffect(() => {
     if (userToken) {
       dispatch(getCartProducts());
     }
     // eslint-disable-next-line
-  }, [userToken]);
+  }, []);
 
   return (
     <nav

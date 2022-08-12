@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-var url = "http://localhost:5000/api/";
+var url = "https://ecomindbackend.herokuapp.com/api/";
 
 //Add product in cart in backend
 export const addProduct = createAsyncThunk(

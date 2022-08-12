@@ -12,7 +12,7 @@ const Product = () => {
   useEffect(() => {
     dispatch(fetchProducts());
     // eslint-disable-next-line
-  }, [products]);
+  }, []);
 
   // const { userToken } = useSelector((state) => state.user);
   // import axios from "axios";

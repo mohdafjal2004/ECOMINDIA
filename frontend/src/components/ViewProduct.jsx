@@ -6,7 +6,7 @@ import { addToCart } from "../store/CartSlice";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 
-var url = "http://localhost:5000/api/";
+var url = "https://ecomindbackend.herokuapp.com/api/";
 
 const ViewProduct = () => {
   const { productId } = useParams();
